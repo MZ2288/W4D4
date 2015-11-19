@@ -1,0 +1,10 @@
+<h1><%= @user.email %></h1>
+
+  <table>
+    <tr>
+      <th>Bands</th>
+      <th>Albums</th>
+    </tr>
+  </table>
+
+  <%= button_to "Sign Out",  session_url, method: :delete   %>
